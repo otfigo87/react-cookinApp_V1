@@ -1,6 +1,44 @@
-body {
-  
+* {
+  padding:0;
+  box-sizing: border-box;
 }
+body {
+  background-color: rgb(204, 183, 183);
+  font-family: Helvetica, sans-serif;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-align: center;
+}
+h1 {
+  color: rgb(81, 28, 22);
+}
+input {
+  width: 300px;
+  text-align: center;
+  height: 35px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  font-size: 1em;
+}
+.meals-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+.meal-card {
+  text-align: center;
+  padding: 10px;
+  width: 240px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+img {
+  width: 90%;
+  border-radius: 10px;
+  border: solid 1px rgb(175, 108, 108);
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
